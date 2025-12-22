@@ -1,3 +1,126 @@
+import glob
+import pandas as pd
+import json
+import numpy as np
+
+# get file paths
+file_paths = [f for f in glob.glob('cjkvi-id--unicode/rawdata/manual_ids/*.txt')]
+
+file_paths += [
+    'cjkvi-ids-unicode/rawdata/cjkvi-ids/ids-analysis.txt',
+    'cjkvi-ids-unicode/rawdata/cjkvi-ids/ids-cdp.txt',
+    'cjkvi-ids-unicode/rawdata/cjkvi-ids/ids-ext-cdef.txt',
+    'cjkvi-ids-unicode/rawdata/cjkvi-ids/ids.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Basic.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Compat-Supplement.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Compat.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-A.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-1.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-2.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-3.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-4.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-5.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-6.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-C.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-D.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-E.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-F.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-G.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-H.txt',
+    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-I.txt'
+]
+
+# Create ids DataFrame combining all files
+ids_df = pd.DataFrame()
+for file_path in file_paths:
+    try:
+        # Solution 1: Use usecols to only read the first 3 columns
+        # This prevents errors when some lines have extra fields
+        df = pd.read_csv(
+            file_path,
+            sep='\t',
+            comment='#',
+            names=['code_point', 'character', 'components'],
+            usecols=[0, 1, 2],  # Only read first 3 columns
+            encoding='utf-8',
+            on_bad_lines='skip'  # Skip lines that can't be parsed (pandas 1.3+)
+        )
+        if ids_df.empty:
+            ids_df = df
+        else:
+            ids_df = pd.concat([ids_df, df])
+    except Exception as e:
+        print(f"Error loading {file_path}: {e}")
+        continue
+
+# Drop duplicate rows
+ids_df = ids_df.drop_duplicates()
+
+# Save to csv
+ids_df.to_csv('daniel_tables/ids_df.csv', index=False)
+
+# Create shin-kyu table
+shin_kyu_df = pd.read_csv(
+    'cjkvi-variants/jp-old-style.txt',
+    sep='\t',
+    comment='#',
+    skiprows=22,
+    names=['shin', 'kyu'],
+    usecols=[0, 1],  # Only read first 2 columns
+    encoding='utf-8',
+    on_bad_lines='skip'  # Skip lines that can't be parsed (pandas 1.3+)
+)
+temp = pd.read_csv(
+    'cjkvi-variants/joyo-variants.txt',
+    sep=',',
+    comment='#',
+    skiprows=5,
+    names=['shin', 'd', 'kyu'],
+    usecols=[0, 1, 2],  # Only read first 3 columns
+    encoding='utf-8',
+    on_bad_lines='skip'  # Skip lines that can't be parsed (pandas 1.3+)
+)
+temp = temp[['shin', 'kyu']]
+
+# From shinjitai-table
+with open('../shinjitai-table/shinjitai.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+    
+# Convert to a more usable format
+# Create a list of dictionaries for each character-variant pair
+shinjitai_list = []
+for shinjitai, kyujitai_list in data.items():
+    if kyujitai_list:  # Only if there are variants
+        for kyujitai in kyujitai_list:
+            shinjitai_list.append({
+                'shin': shinjitai,
+                'kyu': kyujitai
+            })
+
+df_shinjitai = pd.DataFrame(shinjitai_list)
+
+# Concatenate DataFrames
+shin_kyu_df = pd.concat([shin_kyu_df, temp, df_shinjitai])
+
+# Drop duplicate rows
+shin_kyu_df = shin_kyu_df.drop_duplicates()
+
+# Save to csv
+shin_kyu_df.to_csv('daniel_tables/shin_kyu_df.csv', index=False)
+
+# Stroke count table
+stroke_count_df = pd.read_csv(
+    'cjkvi-ids/ucs-strokes.txt',
+    sep='\t',
+    comment='#',
+    names=['code_point', 'character', 'stroke_count'],
+    usecols=[0, 1, 2],  # Only read first 3 columns
+    encoding='utf-8',
+    on_bad_lines='skip'  # Skip lines that can't be parsed (pandas 1.3+)
+)
+
+# Save to csv
+stroke_count_df.to_csv('daniel_tables/stroke_count_df.csv', index=False)
 
 
 """
@@ -26,5 +149,3 @@ radicals = [
     '風', '飛', '食', '首', '香', '品', '馬', '骨', '高', '髟', '鬥', '鬯', '鬲', '鬼', '竜', '韋', '魚', '鳥', 
     '鹵', '鹿', '麻', '亀', '啇', '黄', '黒', '黍', '黹', '無', '歯', '黽', '鼎', '鼓', '鼠', '鼻', '齊', '龠'
 ]
-
-
