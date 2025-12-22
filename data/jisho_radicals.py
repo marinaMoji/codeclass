@@ -92,3 +92,4 @@ def is_radical(character):
     """
     return character in ALL_RADICALS_SET
 
+
