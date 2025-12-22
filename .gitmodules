@@ -1,3 +1,12 @@
 [submodule "radically"]
 	path = radically
 	url = https://github.com/marinaMoji/radically.git
+[submodule "cjkvi-ids-unicode"]
+	path = cjkvi-ids-unicode
+	url = https://github.com/marinaMoji/cjkvi-ids-unicode.git
+[submodule "cjkvi-variants"]
+	path = cjkvi-variants
+	url = https://github.com/marinaMoji/cjkvi-variants.git
+[submodule "shinjitai-table"]
+	path = shinjitai-table
+	url = https://github.com/marinaMoji/shinjitai-table.git
