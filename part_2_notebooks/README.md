@@ -105,9 +105,9 @@ This series focuses specifically on data manipulation skills needed for dictiona
 ## Data File Paths
 
 When working with the notebooks, data files are referenced relative to the repository root:
-- `../cjkvi-variants/` - Variant data files
-- `../shinjitai-table/` - Japanese variant JSON files
-- `../cjkvi-ids-unicode/rawdata/cjkvi-ids/ids.txt` - Full IDS dataset (~89,000 characters)
+- `../submodules/cjkvi-variants/` - Variant data files
+- `../submodules/shinjitai-table/` - Japanese variant JSON files
+- `../submodules/cjkvi-ids-unicode/rawdata/cjkvi-ids/ids.txt` - Full IDS dataset (~89,000 characters)
 
 ## Next Steps
 

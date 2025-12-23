@@ -27,6 +27,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+chise_tables.py
 
 # Virtual environments
 venv/

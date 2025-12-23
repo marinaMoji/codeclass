@@ -1,144 +1,23 @@
-import glob
 import pandas as pd
-import json
-import numpy as np
 
-# get file paths
-file_paths = [f for f in glob.glob('cjkvi-id--unicode/rawdata/manual_ids/*.txt')]
+# Load the IDS table
+ids_df = pd.read_csv('daniel_tables/ids_df.csv',
+    index_col=None,
+    encoding='utf-8')
 
-file_paths += [
-    'cjkvi-ids-unicode/rawdata/cjkvi-ids/ids-analysis.txt',
-    'cjkvi-ids-unicode/rawdata/cjkvi-ids/ids-cdp.txt',
-    'cjkvi-ids-unicode/rawdata/cjkvi-ids/ids-ext-cdef.txt',
-    'cjkvi-ids-unicode/rawdata/cjkvi-ids/ids.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Basic.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Compat-Supplement.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Compat.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-A.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-1.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-2.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-3.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-4.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-5.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-B-6.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-C.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-D.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-E.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-F.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-G.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-H.txt',
-    'cjkvi-ids-unicode/rawdata/ids/IDS-UCS-Ext-I.txt'
-]
-
-# Create ids DataFrame combining all files
-ids_df = pd.DataFrame()
-for file_path in file_paths:
-    try:
-        # Solution 1: Use usecols to only read the first 3 columns
-        # This prevents errors when some lines have extra fields
-        df = pd.read_csv(
-            file_path,
-            sep='\t',
-            comment='#',
-            names=['code_point', 'character', 'components'],
-            usecols=[0, 1, 2],  # Only read first 3 columns
-            encoding='utf-8',
-            on_bad_lines='skip'  # Skip lines that can't be parsed (pandas 1.3+)
-        )
-        if ids_df.empty:
-            ids_df = df
-        else:
-            ids_df = pd.concat([ids_df, df])
-    except Exception as e:
-        print(f"Error loading {file_path}: {e}")
-        continue
-
-# Drop duplicate rows
+# cleaning
 ids_df = ids_df.drop_duplicates()
+ids_df = ids_df.dropna(subset=['character', 'components'], how='any')
+ids_df = ids_df[~ids_df['components'].str.contains('←')]
+ids_df = ids_df[~ids_df['components'].str.contains('→')]
+ids_df = ids_df[~ids_df['components'].str.contains('CDP')].copy()
 
-# Save to csv
-ids_df.to_csv('daniel_tables/ids_df.csv', index=False)
-
-# Create shin-kyu table
-shin_kyu_df = pd.read_csv(
-    'cjkvi-variants/jp-old-style.txt',
-    sep='\t',
-    comment='#',
-    skiprows=22,
-    names=['shin', 'kyu'],
-    usecols=[0, 1],  # Only read first 2 columns
-    encoding='utf-8',
-    on_bad_lines='skip'  # Skip lines that can't be parsed (pandas 1.3+)
-)
-temp = pd.read_csv(
-    'cjkvi-variants/joyo-variants.txt',
-    sep=',',
-    comment='#',
-    skiprows=5,
-    names=['shin', 'd', 'kyu'],
-    usecols=[0, 1, 2],  # Only read first 3 columns
-    encoding='utf-8',
-    on_bad_lines='skip'  # Skip lines that can't be parsed (pandas 1.3+)
-)
-temp = temp[['shin', 'kyu']]
-
-# From shinjitai-table
-with open('../shinjitai-table/shinjitai.json', 'r', encoding='utf-8') as f:
-    data = json.load(f)
-    
-# Convert to a more usable format
-# Create a list of dictionaries for each character-variant pair
-shinjitai_list = []
-for shinjitai, kyujitai_list in data.items():
-    if kyujitai_list:  # Only if there are variants
-        for kyujitai in kyujitai_list:
-            shinjitai_list.append({
-                'shin': shinjitai,
-                'kyu': kyujitai
-            })
-
-df_shinjitai = pd.DataFrame(shinjitai_list)
-
-# Concatenate DataFrames
-shin_kyu_df = pd.concat([shin_kyu_df, temp, df_shinjitai])
-
-# Drop duplicate rows
-shin_kyu_df = shin_kyu_df.drop_duplicates()
-
-# Save to csv
-shin_kyu_df.to_csv('daniel_tables/shin_kyu_df.csv', index=False)
-
-# Stroke count table
-stroke_count_df = pd.read_csv(
-    'cjkvi-ids/ucs-strokes.txt',
-    sep='\t',
-    comment='#',
-    names=['code_point', 'character', 'stroke_count'],
-    usecols=[0, 1, 2],  # Only read first 3 columns
-    encoding='utf-8',
-    on_bad_lines='skip'  # Skip lines that can't be parsed (pandas 1.3+)
-)
-
-# Save to csv
-stroke_count_df.to_csv('daniel_tables/stroke_count_df.csv', index=False)
-
-
-"""
-First, as an exercise, I will have my collaborator go to https://jisho.org/#radical and copy and paste all the radicals into gedit.
-
-1一｜丶ノ乙亅2二亠人⺅𠆢儿入ハ丷冂冖冫几凵刀⺉力勹匕匚十卜卩厂厶又マ九ユ乃𠂉3⻌口囗土士夂夕大女子宀寸小⺌尢尸屮山川巛工已巾干幺广廴廾弋弓ヨ彑彡彳⺖⺘⺡⺨⺾⻏⻖也亡及久4⺹心戈戸手支攵文斗斤方无日曰月木欠止歹殳比毛氏气水火⺣爪父爻爿片牛犬⺭王元井勿尤五屯巴毋5玄瓦甘生用田疋疒癶白皮皿目矛矢石示禸禾穴立⻂世巨冊母⺲牙6瓜竹米糸缶羊羽而耒耳聿肉自至臼舌舟艮色虍虫血行衣西7臣見角言谷豆豕豸貝赤走足身車辛辰酉釆里舛麦8金長門隶隹雨青非奄岡免斉9面革韭音頁風飛食首香品10馬骨高髟鬥鬯鬲鬼竜韋11魚鳥鹵鹿麻亀啇黄黒12黍黹無歯13黽鼎鼓鼠14鼻齊17龠
-
-Then, she will use regex to remove numbers and create a list for use in python. 
-"""
-
-# Resulting list:
-
-radicals = [
+radical_list = [
     '一', '｜', '丶', 'ノ', '乙', '亅', '二', '亠', '人', '⺅', '𠆢', '儿', '入', 'ハ', '丷', '冂', '冖', '冫', 
     '几', '凵', '刀', '⺉', '力', '勹', '匕', '匚', '十', '卜', '卩', '厂', '厶', '又', 'マ', '九', 'ユ', '乃', 
     '𠂉', '⻌', '口', '囗', '土', '士', '夂', '夕', '大', '女', '子', '宀', '寸', '小', '⺌', '尢', '尸', '屮', 
     '山', '川', '巛', '工', '已', '巾', '干', '幺', '广', '廴', '廾', '弋', '弓', 'ヨ', '彑', '彡', '彳', '⺖', 
-    '⺘', '⺡', '⺨', '⺾', '⻏⻖', '也', '亡', '及', '久', '⺹', '心', '戈', '戸', '手', '支', '攵', '文', '斗', 
+    '⺘', '⺡', '⺨', '⺾', '⻏', '⻖', '也', '亡', '及', '久', '⺹', '心', '戈', '戸', '手', '支', '攵', '文', '斗', 
     '斤', '方', '无', '日', '曰', '月', '木', '欠', '止', '歹', '殳', '比', '毛', '氏', '气', '水', '火', '⺣', 
     '爪', '父', '爻', '爿', '片', '牛', '犬', '⺭', '王', '元', '井', '勿', '尤', '五', '屯', '巴', '毋', '玄', 
     '瓦', '甘', '生', '用', '田', '疋', '疒', '癶', '白', '皮', '皿', '目', '矛', '矢', '石', '示', '禸', '禾', 
@@ -149,3 +28,147 @@ radicals = [
     '風', '飛', '食', '首', '香', '品', '馬', '骨', '高', '髟', '鬥', '鬯', '鬲', '鬼', '竜', '韋', '魚', '鳥', 
     '鹵', '鹿', '麻', '亀', '啇', '黄', '黒', '黍', '黹', '無', '歯', '黽', '鼎', '鼓', '鼠', '鼻', '齊', '龠'
 ]
+
+radical_list += [
+    '阝', '釒', '亻', '艹', '忄', '扌', '氵', '犭', '礻', '罒', '辶', '牜', '八', '丨', '网', '丿', '刂', '𠂆',
+    '黑', '𧾷', '龜', '龍', '攴'
+]
+
+import re
+
+# TODO There are duplicates in the character column, which should be manually cleaned
+# For the moment, we'll just drop them
+ids_df = ids_df.drop_duplicates(subset=['character'])
+
+# Empty list to fill with dictionaries
+ls = []
+
+# Letters to use as column names
+letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
+
+# Iterate through the DataFrame
+for idx, row in ids_df.iterrows():
+    # Set letter index counter to 0
+    letter_idx = 0
+    # Convert the row to a dictionary
+    d = row.to_dict()
+    # Extract characters from the components column
+    components = row['components'] 
+    # Remove structure characters
+    structure_chars = '⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻'
+    components = re.sub(f'[{structure_chars}]', '', components)
+    # Add a radical string to the row dictionary
+    d['radical_string'] = ''
+    # Iterate through the characters
+    for char in components:
+        # If the character is in the list,
+        if char in radical_list:
+            # Then add it to the radical string
+            d['radical_string'] += char
+        # If the character ISN'T in the list,
+        else:
+            # Find the current letter from the letter index using slices
+            letter = letters[letter_idx]
+            # Add the character as the value of that key
+            d[letter] = char
+            # Increment the letter index counter
+            letter_idx += 1
+    # Append the dictionary to the list
+    ls.append(d)
+
+# Convert the list of dictionaries back to a DataFrame
+ids_df = pd.DataFrame(ls)
+
+# Fill NaN with empty string
+ids_df['radical_string'] = ids_df['radical_string'].fillna('')
+
+# Create all_components column from the original components column
+# This removes structure characters but keeps all component characters (radicals + non-radicals)
+def extract_all_components(components_str):
+    """Extract all characters from components, removing only structure characters"""
+    if pd.isna(components_str):
+        return ''
+    structure_chars = '⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻'
+    # Remove structure characters and arrows, keep everything else
+    cleaned = re.sub(f'[{structure_chars}→←]', '', str(components_str))
+    return cleaned
+
+ids_df['all_components'] = ids_df['components'].apply(extract_all_components)
+
+print("\nFirst few rows with extracted radicals:")
+print(ids_df[['character', 'components', 'radical_string', 'all_components', 'a']].head(10))
+temp = ids_df[ids_df['a'].isna()]
+print(f"{len(temp)}/{len(ids_df)} rows are completely broken down into radicals")
+
+
+
+def go_deeper(df, col):
+    """
+    Get radicals from next level (components of components)
+    param df: DataFrame to work with
+    param col: column to work with
+    returns df: DataFrame to work with
+    """
+    # Reduce DataFrame to columns we need and make copy
+    cc = df[[col, 'radical_string']].copy()
+    # Fill empty radical_string with the character
+    cc['radical_string'] = cc['radical_string'].fillna('')
+    # Drop empty rows
+    cc = cc[cc['radical_string'] != ''].copy()
+    cc = cc.dropna(subset=col)
+    cc = cc[cc[col] != ''].copy()
+    # Rename columns
+    cc = cc.rename(columns={col: 'character', 'radical_string': 'new_rads'})
+    # Deduplicate again TODO this might be fucked
+    cc = cc.drop_duplicates(subset=['character'])
+    # Merge with original DataFrame
+    df = pd.merge(df, cc, on='character', how='left')
+    # Fill empty radical_string with the character
+    df['new_rads'] = df['new_rads'].fillna(value='')
+    # Split into those with and without new_rads
+    df_with = df[df['new_rads'] != ''].copy()
+    df_without = df[df['new_rads'] == ''].copy()
+    # Add new_rads to radical_string
+    df_with['radical_string'] = df_with['radical_string'] + df_with['new_rads']
+    # For df_without, the component character doesn't have radicals in our lookup
+    # We should NOT add the component character itself to radical_string (it's not a radical!)
+    # So we keep radical_string unchanged for df_without
+    # (Previously this was: df_without['radical_string'] = df_without['radical_string'] + df_without[col]
+    #  which was wrong because: 1) it adds non-radical characters, 2) NaN values cause NaN propagation)
+    # Concatenate the two DataFrames
+    df = pd.concat([df_with, df_without])
+    # Drop new_rads column
+    df = df.drop(columns=['new_rads', col])
+    # Drop duplicates
+    df = df.drop_duplicates()
+    # Fill empty radical_string with the character
+    df['radical_string'] = df['radical_string'].fillna('')
+    # Return the DataFrame
+    return df
+
+# Apply the function to column a
+ids_df = go_deeper(ids_df, 'a')
+
+# Apply the function to column b
+ids_df = go_deeper(ids_df, 'b')
+
+# Cut down to needed columns (keep all_components for searching)
+ids_df = ids_df[['character', 'components', 'radical_string', 'all_components']].copy()
+
+# Search in all_components (which contains all radicals and components)
+a = ids_df[
+    ids_df['all_components'].str.contains('忄', na=False) &
+    ids_df['all_components'].str.contains('舀', na=False)
+]
+print(f"\nSearch for 忄 and 舀: {len(a)} results")
+print(a)
+
+b = ids_df[
+    ids_df['all_components'].str.contains('車', na=False) &
+    ids_df['all_components'].str.contains('鳥', na=False)
+]
+print(f"\nSearch for 車 and 鳥: {len(b)} results")
+print(b)
+
+# 稻
+# 糬
