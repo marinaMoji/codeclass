@@ -73,3 +73,32 @@ In JupyterLab:
 - The notebooks use data from the `data/` directory. Make sure you don't delete or move this folder.
 - All notebooks are designed to work with Python 3.8 or newer.
 - If you encounter encoding errors with Japanese text, make sure your terminal/system supports UTF-8 encoding.
+
+## Course Schedule
+
+This is a 10-hour schedule designed for a one-day intensive course (9:00-19:00). Time estimates are approximate and can be adjusted based on student pace.
+
+| Time | Activity | Duration |
+|------|----------|----------|
+| 09:00-09:30 | Part 1: Intro + Numbers (quick) | 30 min |
+| 09:30-11:30 | Part 1: Strings, Lists, Dicts, Functions | 120 min |
+| 11:30-11:45 | Break | 15 min |
+| 11:45-12:00 | Part 1: Files (quick), Regex basics | 15 min |
+| 12:00-13:00 | Part 2: Pandas Intro, Loading, Exploring (quick), Filtering | 60 min |
+| 13:00-14:00 | Lunch | 60 min |
+| 14:00-15:00 | Part 2: Merging (thorough) | 60 min |
+| 15:00-15:30 | Part 2: Statistics | 30 min |
+| 15:30-15:45 | Break | 15 min |
+| 15:45-17:30 | Part 3: XML parsing (Parts 5-7, skip 8-9) | 105 min |
+| 17:30-18:30 | Part 4: Choose one project (4A or 4B) | 60 min |
+| 18:30-19:00 | Wrap-up, Q&A, review | 30 min |
+
+**Total: 10 hours** (9:00-19:00)
+
+**Key Time-Savers:**
+- Skip Part 1 Numbers notebook - do a 5-minute demo
+- Skip Part 1 Regex - mention it, don't go deep
+- Move quickly through Part 2 Exploring - show the basics
+- Skip Part 3 Parts 1-4 - do a quick demo, then jump to parsing
+- Skip Part 3 Part 8 (scaling up) - mention it, don't implement
+- Choose one Part 4 project - don't try both

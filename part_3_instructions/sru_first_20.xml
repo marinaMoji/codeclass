@@ -1,0 +1,1243 @@
+<searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/">
+  <version>1.2</version>
+  <numberOfRecords>261941</numberOfRecords>
+  <nextRecordPosition>21</nextRecordPosition>
+  <extraResponseData>
+    &lt;facets&gt;
+      &lt;lst name="REPOSITORY_NO"&gt;
+        &lt;int name="R100000103"&gt;100689&lt;/int&gt;
+        &lt;int name="R100000092"&gt;40171&lt;/int&gt;
+        &lt;int name="R100000002"&gt;40109&lt;/int&gt;
+        &lt;int name="R100000039"&gt;34107&lt;/int&gt;
+        &lt;int name="R100000133"&gt;23292&lt;/int&gt;
+        &lt;int name="R000000054"&gt;3911&lt;/int&gt;
+        &lt;int name="R100000113"&gt;3798&lt;/int&gt;
+        &lt;int name="R100000094"&gt;3688&lt;/int&gt;
+        &lt;int name="R100000087"&gt;3098&lt;/int&gt;
+        &lt;int name="R100000143"&gt;2415&lt;/int&gt;
+        &lt;int name="R100000102"&gt;2228&lt;/int&gt;
+        &lt;int name="R000000202"&gt;1049&lt;/int&gt;
+        &lt;int name="R100000138"&gt;856&lt;/int&gt;
+        &lt;int name="R100000123"&gt;592&lt;/int&gt;
+        &lt;int name="R000000059"&gt;575&lt;/int&gt;
+        &lt;int name="R100000124"&gt;545&lt;/int&gt;
+        &lt;int name="R100000139"&gt;542&lt;/int&gt;
+        &lt;int name="R100000125"&gt;128&lt;/int&gt;
+        &lt;int name="R100000001"&gt;56&lt;/int&gt;
+        &lt;int name="R100000121"&gt;50&lt;/int&gt;
+        &lt;int name="R000000034"&gt;18&lt;/int&gt;
+        &lt;int name="R000000051"&gt;9&lt;/int&gt;
+        &lt;int name="R100000120"&gt;8&lt;/int&gt;
+        &lt;int name="R100000122"&gt;7&lt;/int&gt;
+      &lt;/lst&gt;
+      &lt;lst name="NDC"&gt;
+        &lt;int name="0"&gt;3519&lt;/int&gt;
+        &lt;int name="1"&gt;2809&lt;/int&gt;
+        &lt;int name="2"&gt;4665&lt;/int&gt;
+        &lt;int name="3"&gt;787&lt;/int&gt;
+        &lt;int name="4"&gt;790&lt;/int&gt;
+        &lt;int name="5"&gt;129&lt;/int&gt;
+        &lt;int name="6"&gt;127&lt;/int&gt;
+        &lt;int name="7"&gt;846&lt;/int&gt;
+        &lt;int name="8"&gt;1796&lt;/int&gt;
+        &lt;int name="9"&gt;4477&lt;/int&gt;
+        &lt;int name="W"&gt;1&lt;/int&gt;
+        &lt;int name="そ"&gt;1&lt;/int&gt;
+        &lt;int name="今"&gt;13&lt;/int&gt;
+        &lt;int name="加"&gt;34&lt;/int&gt;
+        &lt;int name="深"&gt;5&lt;/int&gt;
+        &lt;int name="美"&gt;28&lt;/int&gt;
+        &lt;int name="複"&gt;3&lt;/int&gt;
+        &lt;int name="越"&gt;209&lt;/int&gt;
+        &lt;int name="青"&gt;39&lt;/int&gt;
+      &lt;/lst&gt;
+      &lt;lst name="ISSUED_DATE"&gt;
+        &lt;int name="1000"&gt;13344&lt;/int&gt;
+        &lt;int name="1160"&gt;20&lt;/int&gt;
+        &lt;int name="1223"&gt;15&lt;/int&gt;
+        &lt;int name="1254"&gt;15&lt;/int&gt;
+        &lt;int name="1271"&gt;18&lt;/int&gt;
+        &lt;int name="1277"&gt;27&lt;/int&gt;
+        &lt;int name="1279"&gt;29&lt;/int&gt;
+        &lt;int name="1288"&gt;16&lt;/int&gt;
+        &lt;int name="1300"&gt;62&lt;/int&gt;
+        &lt;int name="1305"&gt;11&lt;/int&gt;
+        &lt;int name="1316"&gt;11&lt;/int&gt;
+        &lt;int name="1320"&gt;16&lt;/int&gt;
+        &lt;int name="1328"&gt;14&lt;/int&gt;
+        &lt;int name="1334"&gt;21&lt;/int&gt;
+        &lt;int name="1335"&gt;13&lt;/int&gt;
+        &lt;int name="1336"&gt;45&lt;/int&gt;
+        &lt;int name="1337"&gt;22&lt;/int&gt;
+        &lt;int name="1338"&gt;20&lt;/int&gt;
+        &lt;int name="1339"&gt;151&lt;/int&gt;
+        &lt;int name="1340"&gt;11&lt;/int&gt;
+        &lt;int name="1341"&gt;17&lt;/int&gt;
+        &lt;int name="1342"&gt;15&lt;/int&gt;
+        &lt;int name="1343"&gt;14&lt;/int&gt;
+        &lt;int name="1348"&gt;21&lt;/int&gt;
+        &lt;int name="1350"&gt;14&lt;/int&gt;
+        &lt;int name="1351"&gt;16&lt;/int&gt;
+        &lt;int name="1352"&gt;13&lt;/int&gt;
+        &lt;int name="1353"&gt;31&lt;/int&gt;
+        &lt;int name="1354"&gt;20&lt;/int&gt;
+        &lt;int name="1355"&gt;13&lt;/int&gt;
+        &lt;int name="1356"&gt;25&lt;/int&gt;
+        &lt;int name="1357"&gt;15&lt;/int&gt;
+        &lt;int name="1359"&gt;12&lt;/int&gt;
+        &lt;int name="1362"&gt;12&lt;/int&gt;
+        &lt;int name="1365"&gt;12&lt;/int&gt;
+        &lt;int name="1367"&gt;28&lt;/int&gt;
+        &lt;int name="1368"&gt;14&lt;/int&gt;
+        &lt;int name="1370"&gt;14&lt;/int&gt;
+        &lt;int name="1374"&gt;86&lt;/int&gt;
+        &lt;int name="1376"&gt;20&lt;/int&gt;
+        &lt;int name="1382"&gt;15&lt;/int&gt;
+        &lt;int name="1385"&gt;14&lt;/int&gt;
+        &lt;int name="1387"&gt;30&lt;/int&gt;
+        &lt;int name="1392"&gt;11&lt;/int&gt;
+        &lt;int name="1395"&gt;14&lt;/int&gt;
+        &lt;int name="1398"&gt;13&lt;/int&gt;
+        &lt;int name="1400"&gt;46&lt;/int&gt;
+        &lt;int name="1404"&gt;11&lt;/int&gt;
+        &lt;int name="1405"&gt;12&lt;/int&gt;
+        &lt;int name="1406"&gt;16&lt;/int&gt;
+      &lt;/lst&gt;
+      &lt;lst name="LIBRARY"&gt;
+        &lt;int name="国立国会図書館"&gt;40109&lt;/int&gt;
+        &lt;int name="佐賀県立図書館"&gt;3639&lt;/int&gt;
+        &lt;int name="跡見学園女子大学図書館"&gt;849&lt;/int&gt;
+        &lt;int name="島根大学デジタルアーカイブ"&gt;753&lt;/int&gt;
+        &lt;int name="泉大津市立図書館"&gt;393&lt;/int&gt;
+        &lt;int name="河本家稽古有文館"&gt;300&lt;/int&gt;
+        &lt;int name="京都府立京都学・歴彩館"&gt;199&lt;/int&gt;
+        &lt;int name="軽井沢町追分宿郷土館"&gt;166&lt;/int&gt;
+        &lt;int name="みやこ町歴史民俗博物館"&gt;156&lt;/int&gt;
+        &lt;int name="三次市立図書館"&gt;145&lt;/int&gt;
+        &lt;int name="豊橋市図書館"&gt;145&lt;/int&gt;
+        &lt;int name="練馬区立貫井図書館"&gt;97&lt;/int&gt;
+        &lt;int name="徳島県立図書館"&gt;88&lt;/int&gt;
+        &lt;int name="山口県立山口図書館"&gt;81&lt;/int&gt;
+        &lt;int name="上田市立上田図書館（花月文庫）"&gt;66&lt;/int&gt;
+        &lt;int name="萩藩校明倫館"&gt;60&lt;/int&gt;
+        &lt;int name="奈良県立図書情報館"&gt;58&lt;/int&gt;
+        &lt;int name="高知大学"&gt;58&lt;/int&gt;
+        &lt;int name="川崎市立図書館"&gt;56&lt;/int&gt;
+        &lt;int name="秋田県立図書館"&gt;51&lt;/int&gt;
+        &lt;int name="大阪府立中之島図書館"&gt;50&lt;/int&gt;
+        &lt;int name="千葉県立中央図書館"&gt;42&lt;/int&gt;
+        &lt;int name="近江八幡市立近江八幡図書館"&gt;33&lt;/int&gt;
+        &lt;int name="大野城市"&gt;31&lt;/int&gt;
+        &lt;int name="三重県立図書館"&gt;27&lt;/int&gt;
+        &lt;int name="徳島県立文書館"&gt;24&lt;/int&gt;
+        &lt;int name="伊賀市"&gt;21&lt;/int&gt;
+        &lt;int name="島根県立図書館"&gt;19&lt;/int&gt;
+        &lt;int name="広島市立中央図書館"&gt;19&lt;/int&gt;
+        &lt;int name="船橋市西図書館"&gt;18&lt;/int&gt;
+        &lt;int name="県立長野図書館"&gt;17&lt;/int&gt;
+        &lt;int name="多摩市教育委員会"&gt;16&lt;/int&gt;
+        &lt;int name="岡山県立図書館"&gt;15&lt;/int&gt;
+        &lt;int name="弘前図書館"&gt;15&lt;/int&gt;
+        &lt;int name="静岡県立中央図書館"&gt;15&lt;/int&gt;
+        &lt;int name="個人蔵"&gt;13&lt;/int&gt;
+        &lt;int name="大阪市立図書館"&gt;13&lt;/int&gt;
+        &lt;int name="富山県立図書館"&gt;11&lt;/int&gt;
+        &lt;int name="福岡県立図書館"&gt;10&lt;/int&gt;
+        &lt;int name="久喜市公文書館"&gt;9&lt;/int&gt;
+        &lt;int name="愛知県図書館"&gt;9&lt;/int&gt;
+        &lt;int name="手錢家"&gt;9&lt;/int&gt;
+        &lt;int name="昭島市デジタルアーカイブズ"&gt;6&lt;/int&gt;
+        &lt;int name="西宮市立図書館"&gt;6&lt;/int&gt;
+        &lt;int name="豊橋市美術博物館"&gt;6&lt;/int&gt;
+        &lt;int name="和歌山県立図書館"&gt;5&lt;/int&gt;
+        &lt;int name="宮代町郷土資料館"&gt;5&lt;/int&gt;
+        &lt;int name="小諸市"&gt;5&lt;/int&gt;
+        &lt;int name="常総市"&gt;5&lt;/int&gt;
+        &lt;int name="浜松市博物館"&gt;5&lt;/int&gt;
+      &lt;/lst&gt;
+    &lt;/facets&gt;
+  </extraResponseData>
+  <records>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274928"&gt;
+              &lt;dcndl:catalogingStatus&gt;C7&lt;/dcndl:catalogingStatus&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000002&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:bibRecordSubCategory&gt;171&lt;/dcndl:bibRecordSubCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274928#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274928#material"&gt;
+              &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000007274928"/&gt;
+              &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000007274928&lt;/dcterms:identifier&gt;
+              &lt;dcterms:title&gt;嗚呼勇四人与市 3巻&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;嗚呼勇四人与市 3巻&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アア イサマシ ヨニン ヨイチ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+                  &lt;dcndl:uniformTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;嗚呼勇四人与市&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アアイサマシヨニンヨイチ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:uniformTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00380912"&gt;
+              &lt;foaf:name&gt;柳川, 桂子&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;ヤナガワ, ケイシ&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;&lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00380913"&gt;
+              &lt;foaf:name&gt;鳥居, 清経&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;トリイ, キヨツネ&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;柳川桂子 作&lt;/dc:creator&gt;&lt;dc:creator&gt;鳥居清経 画&lt;/dc:creator&gt;
+              &lt;dcndl:publicationPlace rdf:datatype="http://purl.org/dc/terms/ISO3166"&gt;JP&lt;/dcndl:publicationPlace&gt;
+              &lt;dcterms:date&gt;安永8 [1779]&lt;/dcterms:date&gt;
+              &lt;dcterms:description&gt;装丁 : 和装&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;印記: 福田文庫, なてしこその&lt;/dcterms:description&gt;
+              &lt;dcterms:subject&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;黒本&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcterms:subject&gt;
+              &lt;dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcterms:language&gt;
+              &lt;dcterms:extent&gt;1冊 ; 18cm&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274928"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274928#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274928#item" /&gt;&lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000039-I8929266#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274928#item"&gt;
+                  &lt;dcndl:holdingAgent&gt;
+                      &lt;foaf:Agent&gt;
+                          &lt;foaf:name&gt;国立国会図書館&lt;/foaf:name&gt;
+                          &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLLibCode"&gt;0000&lt;/dcterms:identifier&gt;
+                      &lt;/foaf:Agent&gt;
+                  &lt;/dcndl:holdingAgent&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274928"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000007274928"/&gt;
+                  &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000007274928&lt;/dcterms:identifier&gt;
+                  &lt;dcndl:callNumber&gt;208-468&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000039-I8929266#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://dl.ndl.go.jp/pid/8929266"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/digimeta/8929266"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://doi.org/10.11501/8929266"/&gt;
+                  &lt;dcndl:callNumber&gt;208-468&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>1</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280663"&gt;
+              &lt;dcndl:catalogingStatus&gt;C7&lt;/dcndl:catalogingStatus&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000002&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:bibRecordSubCategory&gt;171&lt;/dcndl:bibRecordSubCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280663#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280663#material"&gt;
+              &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000003280663"/&gt;
+              &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000003280663&lt;/dcterms:identifier&gt;
+              &lt;dcterms:title&gt;嗚呼奇々羅 : 2巻&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;嗚呼奇々羅 : 2巻&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アア キキラ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:alternative&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;きんけい&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;キンケイ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:alternative&gt;
+                  &lt;dcndl:uniformTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;嗚呼奇々羅金鶏&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アア キキラ キンケイ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:uniformTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00271618"&gt;
+              &lt;foaf:name&gt;山東, 京伝, 1761-1816&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;サントウ, キョウデン, 1761-1816&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;&lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00270473"&gt;
+              &lt;foaf:name&gt;喜多川, 歌麿, 1753-1806&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;キタガワ, ウタマロ, 1753-1806&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;[山東京伝] [作]&lt;/dc:creator&gt;&lt;dc:creator&gt;[喜多川歌麿] [画]&lt;/dc:creator&gt;
+              &lt;dcterms:publisher&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;[蔦屋重三郎]&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:publisher&gt;
+              &lt;dcndl:publicationPlace rdf:datatype="http://purl.org/dc/terms/ISO3166"&gt;JP&lt;/dcndl:publicationPlace&gt;
+              &lt;dcterms:date&gt;[寛政1(1789)]&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1789&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;装丁 : 和装&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;書名は書外題による 版心書名: きんけい&lt;/dcterms:description&gt;&lt;dcterms:description&gt;明治31年6月3日購求&lt;/dcterms:description&gt;
+              &lt;dcterms:subject&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;黄表紙&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcterms:subject&gt;
+              &lt;dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcterms:language&gt;
+              &lt;dcterms:extent&gt;1冊 ; 19cm&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280663"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280663#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280663#item" /&gt;&lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000039-I9892641#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280663#item"&gt;
+                  &lt;dcndl:holdingAgent&gt;
+                      &lt;foaf:Agent&gt;
+                          &lt;foaf:name&gt;国立国会図書館&lt;/foaf:name&gt;
+                          &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLLibCode"&gt;0000&lt;/dcterms:identifier&gt;
+                      &lt;/foaf:Agent&gt;
+                  &lt;/dcndl:holdingAgent&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280663"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000003280663"/&gt;
+                  &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000003280663&lt;/dcterms:identifier&gt;
+                  &lt;dcndl:callNumber&gt;207-201&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000039-I9892641#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://dl.ndl.go.jp/pid/9892641"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/digimeta/9892641"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://doi.org/10.11501/9892641"/&gt;
+                  &lt;dcndl:callNumber&gt;207-201&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>2</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280667"&gt;
+              &lt;dcndl:catalogingStatus&gt;C7&lt;/dcndl:catalogingStatus&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000002&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:bibRecordSubCategory&gt;171&lt;/dcndl:bibRecordSubCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280667#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280667#material"&gt;
+              &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000003280667"/&gt;
+              &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000003280667&lt;/dcterms:identifier&gt;
+              &lt;dcterms:title&gt;嗚呼辛気楼 : 2巻&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;嗚呼辛気楼 : 2巻&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アア シンキロウ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:alternative&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;鴫蛤嗚呼辛気楼&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;シギ ハマグリ アア シンキロウ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:alternative&gt;&lt;dcndl:alternative&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;はまくり&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;ハマグリ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:alternative&gt;
+                  &lt;dcndl:uniformTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;嗚呼辛気楼&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アアシンキロウ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:uniformTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00271924"&gt;
+              &lt;foaf:name&gt;芍薬亭, 長根, 1767-1845&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;シャクヤクテイ, ナガネ, 1767-1845&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;&lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00270315"&gt;
+              &lt;foaf:name&gt;勝川, 春童, 江戸末期&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;カツカワ, シュンドウ, エド マッキ&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;一橋山人 作&lt;/dc:creator&gt;&lt;dc:creator&gt;蘭徳 画&lt;/dc:creator&gt;
+              &lt;dcterms:publisher&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;[大和田安右衛門]&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:publisher&gt;
+              &lt;dcndl:publicationPlace rdf:datatype="http://purl.org/dc/terms/ISO3166"&gt;JP&lt;/dcndl:publicationPlace&gt;
+              &lt;dcterms:date&gt;[寛政1(1789)]&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1789&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;装丁 : 和装&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;書名は書題簽による 角書付書名: 鴫蛤嗚呼辛気楼 版心書名: はまくり&lt;/dcterms:description&gt;&lt;dcterms:description&gt;明治31年6月3日購求&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;印記: 浮生亭&lt;/dcterms:description&gt;
+              &lt;dcterms:subject&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;黄表紙&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcterms:subject&gt;
+              &lt;dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcterms:language&gt;
+              &lt;dcterms:extent&gt;1冊 ; 17cm&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280667"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280667#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280667#item" /&gt;&lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000039-I9892646#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280667#item"&gt;
+                  &lt;dcndl:holdingAgent&gt;
+                      &lt;foaf:Agent&gt;
+                          &lt;foaf:name&gt;国立国会図書館&lt;/foaf:name&gt;
+                          &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLLibCode"&gt;0000&lt;/dcterms:identifier&gt;
+                      &lt;/foaf:Agent&gt;
+                  &lt;/dcndl:holdingAgent&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280667"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000003280667"/&gt;
+                  &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000003280667&lt;/dcterms:identifier&gt;
+                  &lt;dcndl:callNumber&gt;207-205&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000039-I9892646#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://dl.ndl.go.jp/pid/9892646"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/digimeta/9892646"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://doi.org/10.11501/9892646"/&gt;
+                  &lt;dcndl:callNumber&gt;207-205&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>3</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000010972055"&gt;
+              &lt;dcndl:catalogingStatus&gt;C7&lt;/dcndl:catalogingStatus&gt;
+              &lt;dcndl:catalogingRule&gt;ncr/1987&lt;/dcndl:catalogingRule&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000002&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:bibRecordSubCategory&gt;171&lt;/dcndl:bibRecordSubCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000010972055#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000010972055#material"&gt;
+              &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000010972055"/&gt;
+              &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000010972055&lt;/dcterms:identifier&gt;
+              &lt;dcterms:title&gt;嗚呼忠臣楠子由来 2編&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;嗚呼忠臣楠子由来 2編&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アア チュウシン ナンシ ノ ユライ 2ヘン&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:alternative&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;くすのき&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;クスノキ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:alternative&gt;
+                  &lt;dcndl:uniformTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;嗚呼忠臣楠子由来&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アアチュウシンナンシノユライ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:uniformTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00269471"&gt;
+              &lt;foaf:name&gt;五柳亭, 徳升, 1793-1853&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;ゴリュウテイ, トクショウ, 1793-1853&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;&lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00269569"&gt;
+              &lt;foaf:name&gt;橋本, 貞秀, 1807-1873&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;ハシモト, サダヒデ, 1807-1873&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;五柳亭徳升 著&lt;/dc:creator&gt;&lt;dc:creator&gt;五雲亭貞秀 画&lt;/dc:creator&gt;
+              &lt;dcterms:publisher&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;森屋治兵衞&lt;/foaf:name&gt;
+              &lt;dcndl:location&gt;江戸&lt;/dcndl:location&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:publisher&gt;
+              &lt;dcndl:publicationPlace rdf:datatype="http://purl.org/dc/terms/ISO3166"&gt;JP&lt;/dcndl:publicationPlace&gt;
+              &lt;dcterms:date&gt;文政13 [1830]&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1830&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;装丁 : 和装&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;書名は見返しによる&lt;/dcterms:description&gt;&lt;dcterms:description&gt;第1冊見返しに「前編」, 第2冊見返しに「後編」とあり&lt;/dcterms:description&gt;&lt;dcterms:description&gt;版心: 第1冊「くすのき 一 (～十五) 」, 第2冊「くすのき 十六 (～廿五) 」&lt;/dcterms:description&gt;&lt;dcterms:description&gt;巻末に「筆耕 金水」とあり&lt;/dcterms:description&gt;&lt;dcterms:description&gt;裏表紙見返しに森屋治兵衛の「文政十三庚寅春新板目録」あり&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;印記: 大惣&lt;/dcterms:description&gt;
+              &lt;dcterms:subject&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;合巻&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcterms:subject&gt;
+              &lt;dcterms:subject rdf:resource="http://id.ndl.go.jp/class/ndlc/W114"/&gt;
+              &lt;dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcterms:language&gt;
+              &lt;dcterms:extent&gt;2冊 (合1冊) ; 18cm&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000010972055"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000010972055#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000010972055#item" /&gt;&lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000039-I10301820#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000010972055#item"&gt;
+                  &lt;dcndl:holdingAgent&gt;
+                      &lt;foaf:Agent&gt;
+                          &lt;foaf:name&gt;国立国会図書館&lt;/foaf:name&gt;
+                          &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLLibCode"&gt;0000&lt;/dcterms:identifier&gt;
+                      &lt;/foaf:Agent&gt;
+                  &lt;/dcndl:holdingAgent&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000010972055"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000010972055"/&gt;
+                  &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000010972055&lt;/dcterms:identifier&gt;
+                  &lt;dcndl:callNumber&gt;207-1643&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000039-I10301820#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://dl.ndl.go.jp/pid/10301820"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/digimeta/10301820"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://doi.org/10.11501/10301820"/&gt;
+                  &lt;dcndl:callNumber&gt;207-1643&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>4</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280532"&gt;
+              &lt;dcndl:catalogingStatus&gt;C7&lt;/dcndl:catalogingStatus&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000002&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:bibRecordSubCategory&gt;171&lt;/dcndl:bibRecordSubCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280532#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280532#material"&gt;
+              &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000003280532"/&gt;
+              &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000003280532&lt;/dcterms:identifier&gt;
+              &lt;dcterms:title&gt;嗚呼不侭世之助噺 : 3巻&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;嗚呼不侭世之助噺 : 3巻&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アア ママナラヌ ヨノスケバナシ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:alternative&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;世之介噺&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;ヨノスケバナシ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:alternative&gt;
+                  &lt;dcndl:uniformTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;嗚呼不儘／世之助噺&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アアママナラヌ／ヨノスケバナシ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:uniformTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00803430"&gt;
+              &lt;foaf:name&gt;亀遊, 天明頃&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;キユウ, テンメイ ゴロ&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;&lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00272303"&gt;
+              &lt;foaf:name&gt;鳥居, 清長, 1752-1815&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;トリイ, キヨナガ, 1752-1815&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;亀遊 戯作&lt;/dc:creator&gt;&lt;dc:creator&gt;[鳥居清長] [画]&lt;/dc:creator&gt;
+              &lt;dcterms:publisher&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;[蔦屋重三郎]&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:publisher&gt;
+              &lt;dcndl:publicationPlace rdf:datatype="http://purl.org/dc/terms/ISO3166"&gt;JP&lt;/dcndl:publicationPlace&gt;
+              &lt;dcterms:date&gt;[安永10 (1781)]&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1781&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;装丁 : 和装&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;書名は元表紙書外題による 版心書名: 世之介噺&lt;/dcterms:description&gt;&lt;dcterms:description&gt;明治31年6月3日購求&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;印記: 浮世亭&lt;/dcterms:description&gt;
+              &lt;dcterms:subject&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;黄表紙&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcterms:subject&gt;
+              &lt;dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcterms:language&gt;
+              &lt;dcterms:extent&gt;1冊 ; 18cm&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280532"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280532#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280532#item" /&gt;&lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000039-I9892570#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280532#item"&gt;
+                  &lt;dcndl:holdingAgent&gt;
+                      &lt;foaf:Agent&gt;
+                          &lt;foaf:name&gt;国立国会図書館&lt;/foaf:name&gt;
+                          &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLLibCode"&gt;0000&lt;/dcterms:identifier&gt;
+                      &lt;/foaf:Agent&gt;
+                  &lt;/dcndl:holdingAgent&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000003280532"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000003280532"/&gt;
+                  &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000003280532&lt;/dcterms:identifier&gt;
+                  &lt;dcndl:callNumber&gt;207-71&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000039-I9892570#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://dl.ndl.go.jp/pid/9892570"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/digimeta/9892570"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://doi.org/10.11501/9892570"/&gt;
+                  &lt;dcndl:callNumber&gt;207-71&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>5</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002237"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000133&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002237#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002237#material"&gt;
+              &lt;dcterms:title&gt;あゝ集&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;あゝ集&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;無々庵編&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dcterms:date&gt;文久4年・元治元年&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1864-01-01&lt;/dcterms:issued&gt;
+                  &lt;dcterms:description&gt;資料群 : 月明文庫&lt;/dcterms:description&gt;
+              &lt;dcndl:originalLanguage rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcndl:originalLanguage&gt;
+              &lt;dcterms:extent&gt;半&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/Book" rdfs:label="図書"/&gt;&lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B112002237"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002237#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002237#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002237#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B112002237"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>6</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002238"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000133&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002238#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002238#material"&gt;
+              &lt;dcterms:title&gt;あゝ集&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;あゝ集&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;無々庵編&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dcterms:date&gt;文久4年・元治元年&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1864-01-01&lt;/dcterms:issued&gt;
+                  &lt;dcterms:description&gt;資料群 : 月明文庫&lt;/dcterms:description&gt;
+              &lt;dcndl:originalLanguage rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcndl:originalLanguage&gt;
+              &lt;dcterms:extent&gt;半&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/Book" rdfs:label="図書"/&gt;&lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B112002238"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002238#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002238#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB112002238#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B112002238"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>7</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274929"&gt;
+              &lt;dcndl:catalogingStatus&gt;C7&lt;/dcndl:catalogingStatus&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000002&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:bibRecordSubCategory&gt;171&lt;/dcndl:bibRecordSubCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274929#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274929#material"&gt;
+              &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000007274929"/&gt;
+              &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000007274929&lt;/dcterms:identifier&gt;
+              &lt;dcterms:title&gt;相合駕江之嶋詣 6巻&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相合駕江之嶋詣 6巻&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アイアイカゴエノシマモウデ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+                  &lt;dcndl:uniformTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相合駕江之嶋詣&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アイアイカゴエノシマモウデ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:uniformTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00269308"&gt;
+              &lt;foaf:name&gt;墨川亭, 雪麿, 1797-1856&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;ボクセンテイ, ユキマロ, 1797-1856&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;&lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00272461"&gt;
+              &lt;foaf:name&gt;歌川, 豊国 3世, 1786-1864&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;ウタガワ, トヨクニ 3セイ, 1786-1864&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;墨川亭雪麿 作&lt;/dc:creator&gt;&lt;dc:creator&gt;五渡亭国貞 画&lt;/dc:creator&gt;
+              &lt;dcterms:publisher&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;山本平吉&lt;/foaf:name&gt;
+              &lt;dcndl:location&gt;江戸&lt;/dcndl:location&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:publisher&gt;
+              &lt;dcndl:publicationPlace rdf:datatype="http://purl.org/dc/terms/ISO3166"&gt;JP&lt;/dcndl:publicationPlace&gt;
+              &lt;dcterms:date&gt;文政9成,同10刊&lt;/dcterms:date&gt;
+              &lt;dcterms:description&gt;装丁 : 和装&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;角書: 梅川忠兵衛&lt;/dcterms:description&gt;&lt;dcterms:description&gt;広告・蔵版目録・近刊予告等あり&lt;/dcterms:description&gt;
+              &lt;dcterms:subject&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;合巻&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcterms:subject&gt;
+              &lt;dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcterms:language&gt;
+              &lt;dcterms:extent&gt;3冊 (合1冊) ; 19cm&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274929"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274929#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274929#item" /&gt;&lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000039-I10300908#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274929#item"&gt;
+                  &lt;dcndl:holdingAgent&gt;
+                      &lt;foaf:Agent&gt;
+                          &lt;foaf:name&gt;国立国会図書館&lt;/foaf:name&gt;
+                          &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLLibCode"&gt;0000&lt;/dcterms:identifier&gt;
+                      &lt;/foaf:Agent&gt;
+                  &lt;/dcndl:holdingAgent&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274929"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000007274929"/&gt;
+                  &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000007274929&lt;/dcterms:identifier&gt;
+                  &lt;dcndl:callNumber&gt;207-1515&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000039-I10300908#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://dl.ndl.go.jp/pid/10300908"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/digimeta/10300908"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://doi.org/10.11501/10300908"/&gt;
+                  &lt;dcndl:callNumber&gt;207-1515&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>8</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736842"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000133&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736842#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736842#material"&gt;
+              &lt;dcterms:title&gt;相合駕江ノ嶋詣 上編&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相合駕江ノ嶋詣&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アイアイカゴエノシマモウデ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:volume&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;上編&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;000001&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:volume&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;墨川亭雪麿∥著五渡亭国貞∥画&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;スミカワテイ,ユキマロゴトテイクニサダ&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dcterms:publisher&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;栄久堂山本平吉&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;エイキュウドウ/ヤマモト/ヘイキチ&lt;/dcndl:transcription&gt;
+              &lt;dcndl:location&gt;江戸&lt;/dcndl:location&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:publisher&gt;
+              &lt;dcterms:date&gt;1827(文政10)序&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1827-01-01&lt;/dcterms:issued&gt;
+              &lt;dcndl:partInformation&gt;
+                  &lt;rdf:Description&gt;
+                      &lt;dcterms:title&gt;一の巻,二の巻&lt;/dcterms:title&gt; 
+                  &lt;/rdf:Description&gt;
+              &lt;/dcndl:partInformation&gt;
+                  &lt;dcterms:description&gt;資料群 : 一般古典籍&lt;/dcterms:description&gt;
+              &lt;dc:subject rdf:datatype="http://ndl.go.jp/dcndl/terms/NDC"&gt;913.57&lt;/dc:subject&gt;
+              &lt;dcndl:originalLanguage rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcndl:originalLanguage&gt;
+              &lt;dcterms:extent&gt;18×12cm&lt;/dcterms:extent&gt;&lt;dcterms:extent&gt;10丁&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/Book" rdfs:label="図書"/&gt;&lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B001736842"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736842#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736842#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736842#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B001736842"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>9</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736843"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000133&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736843#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736843#material"&gt;
+              &lt;dcterms:title&gt;相合駕江ノ嶋詣 中編&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相合駕江ノ嶋詣&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アイアイカゴエノシマモウデ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:volume&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;中編&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;000002&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:volume&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;墨川亭雪麿∥著五渡亭国貞∥画&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;スミカワテイ,ユキマロゴトテイクニサダ&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dcterms:publisher&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;栄久堂山本平吉&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;エイキュウドウ/ヤマモト/ヘイキチ&lt;/dcndl:transcription&gt;
+              &lt;dcndl:location&gt;江戸&lt;/dcndl:location&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:publisher&gt;
+              &lt;dcterms:date&gt;1827(文政10)序&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1827-01-01&lt;/dcterms:issued&gt;
+              &lt;dcndl:partInformation&gt;
+                  &lt;rdf:Description&gt;
+                      &lt;dcterms:title&gt;三の巻,四の巻&lt;/dcterms:title&gt; 
+                  &lt;/rdf:Description&gt;
+              &lt;/dcndl:partInformation&gt;
+                  &lt;dcterms:description&gt;資料群 : 一般古典籍&lt;/dcterms:description&gt;
+              &lt;dc:subject rdf:datatype="http://ndl.go.jp/dcndl/terms/NDC"&gt;913.57&lt;/dc:subject&gt;
+              &lt;dcndl:originalLanguage rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcndl:originalLanguage&gt;
+              &lt;dcterms:extent&gt;18×12cm&lt;/dcterms:extent&gt;&lt;dcterms:extent&gt;10丁&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/Book" rdfs:label="図書"/&gt;&lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B001736843"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736843#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736843#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736843#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B001736843"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>10</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736844"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000133&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736844#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736844#material"&gt;
+              &lt;dcterms:title&gt;相合駕江ノ嶋詣 下編&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相合駕江ノ嶋詣&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アイアイカゴエノシマモウデ&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:volume&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;下編&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;000003&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:volume&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;墨川亭雪麿∥著五渡亭国貞∥画&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;スミカワテイ,ユキマロゴトテイクニサダ&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dcterms:publisher&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;栄久堂山本平吉&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;エイキュウドウ/ヤマモト/ヘイキチ&lt;/dcndl:transcription&gt;
+              &lt;dcndl:location&gt;江戸&lt;/dcndl:location&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:publisher&gt;
+              &lt;dcterms:date&gt;1827(文政10)序&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1827-01-01&lt;/dcterms:issued&gt;
+              &lt;dcndl:partInformation&gt;
+                  &lt;rdf:Description&gt;
+                      &lt;dcterms:title&gt;五の巻,六の巻&lt;/dcterms:title&gt; 
+                  &lt;/rdf:Description&gt;
+              &lt;/dcndl:partInformation&gt;
+                  &lt;dcterms:description&gt;資料群 : 一般古典籍&lt;/dcterms:description&gt;
+              &lt;dc:subject rdf:datatype="http://ndl.go.jp/dcndl/terms/NDC"&gt;913.57&lt;/dc:subject&gt;
+              &lt;dcndl:originalLanguage rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcndl:originalLanguage&gt;
+              &lt;dcterms:extent&gt;18×12cm&lt;/dcterms:extent&gt;&lt;dcterms:extent&gt;8丁&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/Book" rdfs:label="図書"/&gt;&lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B001736844"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736844#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736844#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000133-IorgnB001736844#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library.pref.ishikawa.lg.jp/shosho/detail/orgn/B001736844"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>11</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274931"&gt;
+              &lt;dcndl:catalogingStatus&gt;C7&lt;/dcndl:catalogingStatus&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000002&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:bibRecordSubCategory&gt;171&lt;/dcndl:bibRecordSubCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274931#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274931#material"&gt;
+              &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000007274931"/&gt;
+              &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000007274931&lt;/dcterms:identifier&gt;
+              &lt;dcterms:title&gt;両個傘屋雨濡記 6巻&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;両個傘屋雨濡記 6巻&lt;/rdf:value&gt;
+              &lt;dcndl:transcription&gt;アイアイガサヤアメニヌレゴト&lt;/dcndl:transcription&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/001127459"&gt;
+              &lt;foaf:name&gt;緑亭, 可山, 江戸時代後期&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;リョクテイ, カザン, エド ジダイ コウキ&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;&lt;dcterms:creator&gt;&lt;foaf:Agent rdf:about="http://id.ndl.go.jp/auth/entity/00274491"&gt;
+              &lt;foaf:name&gt;北尾, 重政 2世, 1793-&lt;/foaf:name&gt;
+              &lt;dcndl:transcription&gt;キタオ, シゲマサ 2セイ, 1793-&lt;/dcndl:transcription&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;緑亭可山 作&lt;/dc:creator&gt;&lt;dc:creator&gt;歌川美丸 画&lt;/dc:creator&gt;
+              &lt;dcterms:publisher&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;鶴屋金助&lt;/foaf:name&gt;
+              &lt;dcndl:location&gt;江戸&lt;/dcndl:location&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:publisher&gt;
+              &lt;dcndl:publicationPlace rdf:datatype="http://purl.org/dc/terms/ISO3166"&gt;JP&lt;/dcndl:publicationPlace&gt;
+              &lt;dcterms:date&gt;文化12 [1815]&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1815&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;装丁 : 和装&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;角書: 三かつ半七&lt;/dcterms:description&gt;
+              &lt;dcterms:subject&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;合巻&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcterms:subject&gt;
+              &lt;dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcterms:language&gt;
+              &lt;dcterms:extent&gt;(合1冊) ; 23cm&lt;/dcterms:extent&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274931"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274931#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274931#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274931#item"&gt;
+                  &lt;dcndl:holdingAgent&gt;
+                      &lt;foaf:Agent&gt;
+                          &lt;foaf:name&gt;国立国会図書館&lt;/foaf:name&gt;
+                          &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLLibCode"&gt;0000&lt;/dcterms:identifier&gt;
+                      &lt;/foaf:Agent&gt;
+                  &lt;/dcndl:holdingAgent&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000002-I000007274931"/&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://id.ndl.go.jp/bib/000007274931"/&gt;
+                  &lt;dcterms:identifier rdf:datatype="http://ndl.go.jp/dcndl/terms/NDLBibID"&gt;000007274931&lt;/dcterms:identifier&gt;
+                  &lt;dcndl:callNumber&gt;191-86&lt;/dcndl:callNumber&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>12</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_447851"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000103&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_447851#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_447851#material"&gt;
+              &lt;dcterms:title&gt;相預り申金子証文之事&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相預り申金子証文之事&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:seriesTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;松屋文書&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:seriesTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;安田十兵衛&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;安田十兵衛&lt;/dc:creator&gt;
+              &lt;dcterms:contributor&gt;松井兵太夫&lt;/dcterms:contributor&gt;
+              &lt;dcterms:date&gt;1849年03月14日&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1849-03-14&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;一紙 目録種別：古文書（資料） 管理セクション：福井県文書館&lt;/dcterms:description&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:rights&gt;福井県文書館に事前にお問い合わせください（0776-33-8890）。&lt;/dcterms:rights&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-447851"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_447851#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_447851#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_447851#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-447851"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>13</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_441429"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000103&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_441429#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_441429#material"&gt;
+              &lt;dcterms:title&gt;相改売渡申添証文之事（御堂建立之樫木壱本）&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相改売渡申添証文之事（御堂建立之樫木壱本）&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:seriesTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;西応寺文書&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:seriesTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;平沢領家村本人市郎右衛門&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;平沢領家村本人市郎右衛門&lt;/dc:creator&gt;
+              &lt;dcterms:contributor&gt;今井村奥兵衛&lt;/dcterms:contributor&gt;
+              &lt;dcterms:date&gt;1756年12月&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1756-12&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;一紙 目録種別：古文書（資料） 管理セクション：福井県文書館&lt;/dcterms:description&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:rights&gt;福井県文書館に事前にお問い合わせください（0776-33-8890）。&lt;/dcterms:rights&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-441429"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_441429#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_441429#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_441429#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-441429"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>14</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_367838"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000103&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_367838#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_367838#material"&gt;
+              &lt;dcterms:title&gt;相改申一札証文之事（年貢諸役銀立替拝借ニ付改一札）&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相改申一札証文之事（年貢諸役銀立替拝借ニ付改一札）&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:seriesTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;佐藤徳次郎家文書&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:seriesTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;久兵衛他11名&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;久兵衛他11名&lt;/dc:creator&gt;
+              &lt;dcterms:contributor&gt;親方酒屋左次兵衛&lt;/dcterms:contributor&gt;
+              &lt;dcterms:date&gt;1751年12月&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1751-12&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;一紙 目録種別：古文書（資料） 管理セクション：福井県文書館&lt;/dcterms:description&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:rights&gt;福井県文書館に事前にお問い合わせください（0776-33-8890）。&lt;/dcterms:rights&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-367838"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_367838#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_367838#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_367838#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-367838"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>15</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_380280"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000103&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_380280#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_380280#material"&gt;
+              &lt;dcterms:title&gt;相改申究一札之事（成福寺トノ火葬所出入訴訟費用分担ニ付）&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相改申究一札之事（成福寺トノ火葬所出入訴訟費用分担ニ付）&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:seriesTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;大虫神社文書&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:seriesTitle&gt;
+              &lt;dcterms:date&gt;1833年07月&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1833-07&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;一紙 目録種別：古文書（資料） 管理セクション：福井県文書館&lt;/dcterms:description&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:rights&gt;福井県文書館に事前にお問い合わせください（0776-33-8890）。&lt;/dcterms:rights&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-380280"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_380280#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_380280#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_380280#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-380280"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>16</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_521064"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000103&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_521064#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_521064#material"&gt;
+              &lt;dcterms:title&gt;相改申合之事（村方出入ニ付内済証文）&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相改申合之事（村方出入ニ付内済証文）&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:seriesTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;栗駒清左衛門家文書&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:seriesTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;下中郡矢代浦庄屋清左衛門他5名&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;下中郡矢代浦庄屋清左衛門他5名&lt;/dc:creator&gt;
+              &lt;dcterms:date&gt;1852年05月&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1852-05&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;一紙 目録種別：古文書（資料） 管理セクション：福井県文書館&lt;/dcterms:description&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:rights&gt;福井県文書館に事前にお問い合わせください（0776-33-8890）。&lt;/dcterms:rights&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-521064"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_521064#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_521064#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_521064#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-521064"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>17</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_302126"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000103&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_302126#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_302126#material"&gt;
+              &lt;dcterms:title&gt;相改申土目録之事&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相改申土目録之事&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:seriesTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;松嶋一男家文書&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:seriesTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;岩倉村武右衛門他村役人&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;岩倉村武右衛門他村役人&lt;/dc:creator&gt;
+              &lt;dcterms:contributor&gt;松嶋七郎兵衛&lt;/dcterms:contributor&gt;
+              &lt;dcterms:date&gt;1822年11月29日&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1822-11-29&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;一紙 目録種別：古文書（資料） 管理セクション：福井県文書館&lt;/dcterms:description&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:rights&gt;福井県文書館に事前にお問い合わせください（0776-33-8890）。&lt;/dcterms:rights&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-302126"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_302126#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_302126#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_302126#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-302126"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>18</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_358374"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000103&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_358374#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_358374#material"&gt;
+              &lt;dcterms:title&gt;相改村方〆リ定証文之事&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;相改村方〆リ定証文之事&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+              &lt;dcndl:seriesTitle&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;池邑善兵衛家文書&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dcndl:seriesTitle&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;庄屋猪左衛門他29名&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;庄屋猪左衛門他29名&lt;/dc:creator&gt;
+              &lt;dcterms:date&gt;1796年01月16日&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1796-01-16&lt;/dcterms:issued&gt;
+              &lt;dcterms:description&gt;一紙 目録種別：古文書（資料） 管理セクション：福井県文書館&lt;/dcterms:description&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:rights&gt;福井県文書館に事前にお問い合わせください（0776-33-8890）。&lt;/dcterms:rights&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-358374"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_358374#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000103-I011_358374#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000103-I011_358374#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="https://www.library-archives.pref.fukui.lg.jp/archive/da/detail?data_id=011-358374"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>19</recordPosition>
+    </record>
+    <record>
+      <recordSchema>info:srw/schema/1/dc-v1.1</recordSchema>
+      <recordPacking>string</recordPacking>
+      <recordData>
+      &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dcndl="http://ndl.go.jp/dcndl/terms/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:owl="http://www.w3.org/2002/07/owl#" &gt;
+          &lt;dcndl:BibAdminResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000092-I2324_418254"&gt;
+              &lt;dcterms:description&gt;type : book&lt;/dcterms:description&gt;
+              &lt;dcndl:bibRecordCategory&gt;R100000092&lt;/dcndl:bibRecordCategory&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000092-I2324_418254#material" /&gt;
+          &lt;/dcndl:BibAdminResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000092-I2324_418254#material"&gt;
+              &lt;dcterms:title&gt;愛謂編　上&lt;/dcterms:title&gt;
+              &lt;dc:title&gt;&lt;rdf:Description&gt;
+              &lt;rdf:value&gt;愛謂編　上&lt;/rdf:value&gt;
+          &lt;/rdf:Description&gt;&lt;/dc:title&gt;
+                  &lt;dcterms:creator&gt;&lt;foaf:Agent&gt;
+              &lt;foaf:name&gt;蒲生済助&lt;/foaf:name&gt;
+          &lt;/foaf:Agent&gt;&lt;/dcterms:creator&gt;
+              &lt;dc:creator&gt;蒲生済助&lt;/dc:creator&gt;
+              &lt;dcterms:date&gt;慶応3丁卯&lt;/dcterms:date&gt;&lt;dcterms:date&gt;1867&lt;/dcterms:date&gt;
+                  &lt;dcterms:issued rdf:datatype="http://purl.org/dc/terms/W3CDTF"&gt;1867&lt;/dcterms:issued&gt;
+                  &lt;dcterms:description&gt;コレクション : 九大コレクション貴重資料&lt;/dcterms:description&gt;
+              &lt;dcterms:description&gt;思想／儒学&lt;/dcterms:description&gt;
+              &lt;dcterms:language rdf:datatype="http://purl.org/dc/terms/ISO639-2"&gt;jpn&lt;/dcterms:language&gt;
+              &lt;dcndl:materialType rdf:resource="http://ndl.go.jp/ndltype/JapaneseClassicalBook" rdfs:label="和古書"/&gt;
+              &lt;dcterms:spatial&gt;村松藩&lt;/dcterms:spatial&gt;
+              &lt;dcterms:rights&gt;本資料の二次利用には事前の利用申請が必要です&lt;/dcterms:rights&gt;&lt;dcterms:rights&gt;Advance application is required to reuse the material&lt;/dcterms:rights&gt;
+              &lt;dcterms:rights&gt;https://www.lib.kyushu-u.ac.jp/ja/services/visitors/copyright-guidance&lt;/dcterms:rights&gt;&lt;dcterms:rights&gt;https://www.lib.kyushu-u.ac.jp/en/services/visitors/copyright-guidance&lt;/dcterms:rights&gt;
+              &lt;dcterms:audience&gt;一般&lt;/dcterms:audience&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://hdl.handle.net/2324/418254"/&gt;
+          &lt;/dcndl:BibResource&gt;
+          &lt;dcndl:BibResource rdf:about="https://ndlsearch.ndl.go.jp/books/R100000092-I2324_418254#material"&gt;
+              &lt;dcndl:record rdf:resource="https://ndlsearch.ndl.go.jp/books/R100000092-I2324_418254#item" /&gt;
+          &lt;/dcndl:BibResource&gt;
+              &lt;dcndl:Item rdf:about="https://ndlsearch.ndl.go.jp/books/R100000092-I2324_418254#item"&gt;
+                  &lt;rdfs:seeAlso rdf:resource="http://hdl.handle.net/2324/418254"/&gt;
+              &lt;/dcndl:Item&gt;
+      &lt;/rdf:RDF&gt;
+    </recordData>
+      <recordPosition>20</recordPosition>
+    </record>
+  </records>
+</searchRetrieveResponse>

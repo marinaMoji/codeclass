@@ -46,3 +46,5 @@ ENV/
 .DS_Store
 Thumbs.db
 
+# Course documentation
+Documentation/
