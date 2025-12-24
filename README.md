@@ -1,4 +1,4 @@
-![banner](data/banner.png)
+![banner](data/Banner.png)
 
 ## Installation Instructions
 
