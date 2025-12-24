@@ -1,82 +1,158 @@
-# codeclass
-Course materials for one-day coding class for MP
+![banner](data/banner.png)
 
 ## Installation Instructions
 
-To use these Jupyter notebooks on Ubuntu, you'll need to install Python and JupyterLab. Follow these steps:
+These instructions will help you set up Python, JupyterLab, and all required packages **before the class**. This process takes about 10-15 minutes.
 
-### Step 1: Check Python Installation
+### Step 1: Clone the Repository
 
-Python 3 is usually pre-installed on Ubuntu. Check if you have it:
+Open a terminal and navigate to where you want to store the course materials (for example, your home directory or a `Projects` folder):
+
+```bash
+# Navigate to your desired location
+cd ~
+
+# Clone the repository
+git clone https://github.com/marinaMoji/codeclass.git
+
+# Navigate into the repository
+cd codeclass
+```
+
+### Step 2: Check Python Installation
+
+Python 3 should already be installed on your system. Check if it's available:
 
 ```bash
 python3 --version
 ```
 
-If Python 3 is not installed, install it:
+You should see something like `Python 3.10.x` or higher. If you get an error, install Python:
 
 ```bash
+# On Ubuntu/Debian
 sudo apt update
-sudo apt install python3 python3-pip
+sudo apt install python3 python3-venv
 ```
 
-### Step 2: Install JupyterLab and Required Packages
+**Why we use `python3-venv`**: Modern Linux systems (Ubuntu 23.04+) have "externally managed" Python environments, which means you cannot install packages directly to the system Python. Using a virtual environment avoids this restriction and is the recommended approach.
 
-Open a terminal and run:
+### Step 3: Create a Virtual Environment
+
+A virtual environment is an isolated Python environment for this project. This keeps your project's packages separate from system packages.
 
 ```bash
-pip3 install jupyterlab ipykernel
+# Create a virtual environment in a folder called 'venv'
+python3 -m venv venv
+
+# Activate the virtual environment
+source venv/bin/activate
 ```
 
-If you get a permission error, you may need to use `--user`:
+**What happens**: After running `source venv/bin/activate`, you should see `(venv)` at the beginning of your terminal prompt. This means the virtual environment is active.
+
+**Note**: You need to activate the virtual environment every time you open a new terminal. If you close the terminal, run `source venv/bin/activate` again when you reopen it.
+
+### Step 4: Install Required Packages
+
+With the virtual environment activated, install all required packages:
 
 ```bash
-pip3 install --user jupyterlab ipykernel
+# Make sure you're in the codeclass directory and venv is activated
+# (you should see (venv) in your prompt)
+
+# Upgrade pip (the package installer) to the latest version
+pip install --upgrade pip
+
+# Install all required packages using the requirements file
+pip install -r requirements.txt
 ```
 
-### Step 3: Launch JupyterLab
+This will install: `jupyterlab`, `ipykernel`, `pandas`, and `lxml`.
 
-1. Navigate to this project directory in your terminal:
-   ```bash
-   cd /path/to/codeclass
-   ```
-   (Replace `/path/to/codeclass` with the actual path to this folder)
+### Step 5: Register the Virtual Environment as a Jupyter Kernel
 
-2. Start JupyterLab:
-   ```bash
-   jupyter lab
-   ```
-   
-   If the `jupyter` command is not found, try:
-   ```bash
-   python3 -m jupyter lab
-   ```
+This tells JupyterLab to use the Python from your virtual environment:
 
-3. Your web browser should automatically open to JupyterLab. If it doesn't, look for a URL in the terminal output (usually `http://localhost:8888`)
+```bash
+# Make sure venv is still activated (you should see (venv) in your prompt)
+python -m ipykernel install --user --name=codeclass --display-name "Python (codeclass)"
+```
 
-### Step 4: Open the Notebooks
+**What this does**: Creates a Jupyter kernel named "codeclass" that uses your virtual environment's Python and packages.
 
-In JupyterLab:
-- Navigate to the `part_1_notebooks/` folder
-- Click on any `.ipynb` file to open it
-- Start with `00_Python_Intro.ipynb` and work through them in order
+### Step 6: Verify Installation
 
-### Troubleshooting
+Test that everything works:
 
-- **"pip3 not found"**: Install pip3 with `sudo apt install python3-pip`
-- **"jupyter: command not found"**: If you used `--user` flag, you may need to add `~/.local/bin` to your PATH. Alternatively, run `python3 -m jupyter lab` instead of `jupyter lab`
-- **Notebooks won't run**: Make sure you've installed `ipykernel` (it's included in the installation command above)
-- **Permission errors**: Use the `--user` flag when installing with pip3, or use `sudo` (not recommended)
+```bash
+# Check that packages are installed
+python -c "import pandas; import lxml; print('All packages installed successfully!')"
+```
 
-### Additional Notes
+If you see the success message, you're ready!
+
+### Step 7: Launch JupyterLab
+
+Start JupyterLab from the project directory:
+
+```bash
+# Make sure you're in the codeclass directory
+cd ~/codeclass  # or wherever you cloned it
+
+# Make sure venv is activated
+source venv/bin/activate
+
+# Launch JupyterLab
+jupyter lab
+```
+
+**What happens**: 
+- JupyterLab will start and open automatically in your web browser
+- The URL will be something like `http://localhost:8888`
+- You'll see the JupyterLab interface showing the files in the `codeclass` directory
+
+### Step 8: Select the Correct Kernel in JupyterLab
+
+When you open a notebook in JupyterLab:
+
+1. Click on any `.ipynb` notebook file to open it
+2. Look at the top-right corner of the notebook
+3. You should see a kernel name (it might say "Python 3" or similar)
+4. Click on it and select **"Python (codeclass)"** from the dropdown menu
+5. The notebook will now use your virtual environment with all the installed packages
+
+**Important**: You must select the "Python (codeclass)" kernel for each notebook you open, at least the first time. JupyterLab will remember your choice for that notebook.
+
+### Quick Start Checklist (Day of Class)
+
+On the day of class, you just need to:
+
+```bash
+# 1. Navigate to the repository
+cd ~/codeclass
+
+# 2. Activate the virtual environment
+source venv/bin/activate
+
+# 3. Start JupyterLab
+jupyter lab
+```
+
+Then select "Python (codeclass)" as the kernel when opening notebooks.
+
+## Additional Notes
 
 - The notebooks use data from the `data/` directory. Make sure you don't delete or move this folder.
 - All notebooks are designed to work with Python 3.8 or newer.
 - If you encounter encoding errors with Japanese text, make sure your terminal/system supports UTF-8 encoding.
+- **Deactivating the virtual environment**: When you're done, you can deactivate it with `deactivate` (you'll no longer see `(venv)` in your prompt). You can always reactivate it later with `source venv/bin/activate`.
 
 ## Course Schedule
 
 This is a 10-hour schedule designed for a one-day intensive course (9:00-19:00). Time estimates are approximate and can be adjusted based on student pace.
+
+Actually, AI told me it would take you 15 hours and be impossible to do all in one day, so this is also a test to see if Daniel can overestimate the limits of your intelligence and endurance.
 
 | Time | Activity | Duration |
 |------|----------|----------|
