@@ -41,6 +41,10 @@ ENV/
 *.swp
 *.swo
 *~
+*.code-workspace
+
+# Jupyter
+.ipynb_checkpoints/
 
 # OS
 .DS_Store
