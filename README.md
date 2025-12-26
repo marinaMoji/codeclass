@@ -4,6 +4,8 @@
 
 These instructions will help you set up Python, JupyterLab, and all required packages **before the class**. This process takes about 10-15 minutes.
 
+**Note about Binder/Online Options**: While this repository can theoretically be used with Binder (mybinder.org), there are currently issues with nested submodules that prevent Binder from building successfully. **Please use the local installation instructions below** for the most reliable setup.
+
 ### Step 1: Clone the Repository
 
 Open a terminal and navigate to where you want to store the course materials (for example, your home directory or a `Projects` folder):

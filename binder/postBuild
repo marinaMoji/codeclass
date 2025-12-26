@@ -1,0 +1,21 @@
+#!/bin/bash
+# Post-build script for Binder
+# This script runs after the environment is built to handle submodule initialization
+
+set -e
+
+echo "Attempting to initialize submodules that failed during build..."
+
+# Try to initialize the working submodule (cjkvi-ids) if it's not already initialized
+cd submodules/cjkvi-ids-unicode
+if [ -d ".git" ]; then
+    echo "Initializing cjkvi-ids submodule (GitHub, should work)..."
+    git submodule update --init rawdata/cjkvi-ids || echo "Warning: Could not initialize cjkvi-ids submodule"
+else
+    echo "Warning: cjkvi-ids-unicode submodule not found"
+fi
+
+echo "Post-build script completed."
+echo "Note: Some submodules pointing to gitlab.chise.org may not be available due to server issues."
+echo "The notebooks can work with pre-processed data in daniel_tables/ directory instead."
+
