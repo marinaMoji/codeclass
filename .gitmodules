@@ -10,3 +10,6 @@
 [submodule "cjkvi-ids"]
 	path = submodules/cjkvi-ids
 	url = https://github.com/marinaMoji/cjkvi-ids.git
+[submodule "chise-ids"]
+	path = data/chise_ids
+	url = https://gitlab.nijl.ac.jp/CHISE/ids
