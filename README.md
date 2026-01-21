@@ -29,7 +29,9 @@ Python 3 should already be installed on your system. Check if it's available:
 python3 --version
 ```
 
-You should see something like `Python 3.10.x` or higher. If you get an error, install Python:
+You should see something like `Python 3.10.x` or higher. **Important**: For full compatibility (especially with cjklib), Python 3.8-3.11 is recommended. Python 3.12+ may have compatibility issues with some libraries.
+
+If you get an error, install Python:
 
 ```bash
 # On Ubuntu/Debian

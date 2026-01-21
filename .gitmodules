@@ -13,3 +13,6 @@
 [submodule "chise-ids"]
 	path = data/chise_ids
 	url = https://gitlab.nijl.ac.jp/CHISE/ids
+[submodule "submodules/codeclass-part4"]
+	path = submodules/codeclass-part4
+	url = https://github.com/PotatoSinology/codeclass-part4
